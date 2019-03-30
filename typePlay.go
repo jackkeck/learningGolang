@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(a)
 	fmt.Printf("%T\n", a)
 
-	b = 43
+	b = 42
 	fmt.Println(b)
 	fmt.Printf("%T\n", b)
 
