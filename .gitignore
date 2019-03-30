@@ -27,8 +27,8 @@ _testmain.go
 *.iml
 
 # Directory-based project format:
-.idea/*
-.idea/workspace.xml
+/.idea
+/.idea/workspace.xml
 **/.idea/workspace.xml
 
 
