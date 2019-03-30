@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 )
 
 func main() {
@@ -11,7 +10,10 @@ func main() {
 	foo()
 
 	for i := 0; i < 100; i++ {
-		fmt.Println("I am looping " + strconv.Itoa(i) + " times.")
+		if i%2 == 0 {
+			n, _ := fmt.Println(i)
+			fmt.Println(n)
+		}
 	}
 }
 
